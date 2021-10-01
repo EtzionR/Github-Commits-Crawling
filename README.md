@@ -1,5 +1,5 @@
 # Github-Commits-Crawling
-Scraping all of the github-commits dates of given user
+Scraping all of the GitHub-commits dates of a given user
 
 ## Overview
 Many github users spend long hours to improve and upgrade their codes. Any changes made in particular repository are saved and documented as **"commits"**. These commits allow the user to track the changes he has made and document them in an orderly fashion. This repo also as commits page, and you can see it here: [**commits**](https://github.com/EtzionR/Github-Commits-Crawling/commits/main)
