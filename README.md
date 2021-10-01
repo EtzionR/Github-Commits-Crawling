@@ -13,7 +13,7 @@ GiTime('EtzionR').plot()
 # resulting plot:
 ```
 
-![calendar](https://github.com/EtzionR/Github-Commits-Crawling/blob/main/outputs/calendar.png)
+![calendar](https://github.com/EtzionR/Github-Commits-Crawling/blob/main/outputs/calendar_.png)
 
 ## Libraries
 The code uses the following libraries in Python:
