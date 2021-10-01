@@ -14,7 +14,7 @@ The code is based on a number of key steps:
 
 During the work process, there are **one-second breaks** between each crawl request. This time period can be changed using the **"slp"** variable.
 
-In addition, the code is built to deal with the difference between **main repo** and **master repo**. As you know, in 2020 it was decided to stop using the term "master" in github routings and use the term main instead (you can read more on this here: [renaming](# https://github.com/github/renaming)). Therefore, the code deals with the fact that some commits are kept under "**main**" routing and some are still under "**master**".
+In addition, the code is built to deal with the difference between **main repo** and **master repo**. As you know, in 2020 it was decided to stop using the term "master" in github routings and use the term main instead (you can read more on this here: [renaming](https://github.com/github/renaming)). Therefore, the code deals with the fact that some commits are kept under "**main**" routing and some are still under "**master**".
 
 Also, the commits are saved so that **only 35 records** can be kept on each page. Therefore, to scrap all the commits of repo with more than 35 commits, the code uses the link of the scroll down button. By doing so, it be possible to reach the pages where the additional commits are stored.
 
