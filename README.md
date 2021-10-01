@@ -28,6 +28,8 @@ After the code ended the Scraping proccess, it isolates only the dates of the co
 | /EtzionR/Github-Commits-Crawling | 2021 | 10 | 01 | 10 | 52 | 44 | 2021-10-01 | Friday |
 | /EtzionR/Github-Commits-Crawling | 2021 | 10 | 01 | 10 | 51 | 43 | 2021-10-01 | Friday |
 
+You can see example of such table (based on my own github profile) in here: [**GiTime_EtzionR.csv**](https://github.com/EtzionR/Github-Commits-Crawling/blob/main/outputs/GiTime_EtzionR.csv).
+
 Also, the data is converted to a **Calendar Table**, which can also be accessed (**GiTime('user'**).clndr) and can also be plotted automatically:
 
 ``` sh
@@ -39,7 +41,7 @@ GiTime('EtzionR').plot()
 
 # resulting plot:
 ```
-![calendar](https://github.com/EtzionR/Github-Commits-Crawling/blob/main/outputs/calendar_.png)
+![calendar](https://github.com/EtzionR/Github-Commits-Crawling/blob/main/outputs/my_calendar.png)
 
 This example is based on [my private github](https://github.com/EtzionR). As you can see, the calendar produced shows that I do not work at all between 1:00 and 7:00, and also refrains from working on weekends. Also, you can see that most of my work on github is concentrated in the middle of the week.
 
