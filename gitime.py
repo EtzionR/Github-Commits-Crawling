@@ -153,5 +153,7 @@ class GiTime:
         plt.show()
 
 
+# License
+# MIT © Etzion Harari
 
 
